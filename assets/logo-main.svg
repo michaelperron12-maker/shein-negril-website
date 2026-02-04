@@ -6,24 +6,24 @@
   <!-- Fond rose -->
   <path d="M32 54 C25 44, 48 34, 92 37 C165 27, 300 24, 390 28 C510 24, 585 30, 632 40 C662 38, 678 52, 670 68 C682 100, 680 140, 670 165 C680 182, 662 196, 632 194 C585 202, 510 204, 390 200 C300 204, 165 202, 92 194 C48 196, 25 182, 35 165 C22 140, 20 100, 35 68 C25 52, 28 54, 32 54 Z" fill="#E91E7D"/>
 
-  <!-- SHEIN'S - style carré avec Arial -->
+  <!-- SHEIN'S - rapproché -->
 
   <!-- SHEIN -->
-  <text x="265" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="95" font-weight="900" letter-spacing="5"
-        stroke="#0a0a0a" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" fill="#0a0a0a">SHEIN</text>
+  <text x="250" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="114" font-weight="900" letter-spacing="5"
+        stroke="#0a0a0a" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" fill="#0a0a0a">SHEIN</text>
 
   <!-- Apostrophe -->
-  <ellipse cx="490" cy="55" rx="8" ry="10" fill="#0a0a0a"/>
-  <ellipse cx="492" cy="72" rx="5" ry="8" fill="#0a0a0a"/>
+  <ellipse cx="485" cy="52" rx="9" ry="11" fill="#0a0a0a"/>
+  <ellipse cx="487" cy="70" rx="6" ry="9" fill="#0a0a0a"/>
 
-  <!-- S GRAND -->
-  <text x="560" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="130" font-weight="900"
+  <!-- S GRAND - rapproché -->
+  <text x="545" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="130" font-weight="900"
         stroke="#0a0a0a" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" fill="#0a0a0a">S</text>
 
   <!-- SHOPPING CENTRE -->
-  <text x="350" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" font-style="italic"
+  <text x="350" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" font-style="italic"
         stroke="#0a0a0a" stroke-width="5" stroke-linejoin="round" fill="none">SHOPPING CENTRE</text>
 
-  <text x="350" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" font-style="italic"
+  <text x="350" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" font-style="italic"
         fill="#FFD700">SHOPPING CENTRE</text>
 </svg>
