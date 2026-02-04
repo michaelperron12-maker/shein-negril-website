@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="5" dy="5" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Fond blob rose avec contour bleu -->
+  <path id="pink-blob"
+        d="M30 60
+           Q15 40 50 25
+           Q100 5 180 15
+           Q280 0 400 10
+           Q520 0 620 15
+           Q700 5 750 25
+           Q785 40 775 70
+           Q790 120 780 170
+           Q795 220 770 260
+           Q740 295 650 290
+           Q550 305 400 295
+           Q250 305 150 290
+           Q60 295 30 260
+           Q5 220 20 170
+           Q5 120 20 70
+           Q10 50 30 60 Z"
+        fill="#2563EB" stroke="none"/>
+
+  <path id="pink-fill"
+        d="M45 70
+           Q30 55 60 42
+           Q105 25 180 32
+           Q275 20 400 28
+           Q525 20 620 32
+           Q695 25 740 42
+           Q770 55 762 80
+           Q775 125 767 170
+           Q780 210 758 245
+           Q730 275 645 272
+           Q545 285 400 277
+           Q255 285 155 272
+           Q70 275 42 245
+           Q20 210 33 170
+           Q20 125 33 80
+           Q25 60 45 70 Z"
+        fill="#E91E7D" stroke="none"/>
+
+  <!-- SHEIN'S en lettres bubble noires -->
+  <text x="400" y="185"
+        text-anchor="middle"
+        font-family="'Arial Black', 'Helvetica Black', sans-serif"
+        font-size="145"
+        font-weight="900"
+        fill="#0a0a0a"
+        filter="url(#shadow)"
+        letter-spacing="-5">SHEIN'S</text>
+
+  <!-- SHOPPING CENTRE en jaune -->
+  <text x="400" y="290"
+        text-anchor="middle"
+        font-family="'Arial Black', 'Helvetica Black', sans-serif"
+        font-size="58"
+        font-weight="900"
+        font-style="italic"
+        stroke="#0a0a0a"
+        stroke-width="6"
+        fill="#FFD700"
+        letter-spacing="2">SHOPPING CENTRE</text>
+</svg>
