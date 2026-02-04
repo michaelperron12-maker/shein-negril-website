@@ -1,69 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180" width="500" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.3"/>
+      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.2"/>
     </filter>
   </defs>
 
-  <!-- Fond blob rose avec contour bleu -->
+  <!-- Fond blob rose avec contour bleu - forme organique comme sur la photo -->
   <path id="blue-outline"
-        d="M15 35
-           Q5 22 30 14
-           Q70 2 130 8
-           Q200 0 250 5
-           Q340 0 410 8
-           Q470 2 490 14
-           Q505 22 498 40
-           Q508 65 502 95
-           Q512 125 492 145
-           Q465 165 400 162
-           Q320 172 250 165
-           Q180 172 100 162
-           Q35 165 15 145
-           Q-5 125 5 95
-           Q-5 65 5 40
-           Q2 25 15 35 Z"
-        fill="#2563EB" stroke="none"/>
+        d="M25 55
+           Q10 40 35 28
+           Q75 10 140 18
+           Q220 5 300 12
+           Q400 5 480 18
+           Q545 10 575 28
+           Q598 40 590 60
+           Q605 95 595 130
+           Q605 160 580 178
+           Q545 195 470 190
+           Q380 202 300 195
+           Q220 202 130 190
+           Q55 195 28 178
+           Q5 160 12 130
+           Q2 95 12 60
+           Q5 42 25 55 Z"
+        fill="#2E64C8" stroke="none"/>
 
   <path id="pink-fill"
-        d="M25 42
-           Q15 32 38 25
-           Q75 15 130 20
-           Q195 12 250 16
-           Q335 12 405 20
-           Q460 15 482 25
-           Q498 32 492 48
-           Q502 72 496 100
-           Q505 125 488 142
-           Q462 158 400 155
-           Q322 164 250 158
-           Q178 164 102 155
-           Q40 158 22 142
-           Q8 125 15 100
-           Q8 72 15 48
-           Q12 35 25 42 Z"
+        d="M38 60
+           Q25 48 48 38
+           Q85 22 145 28
+           Q220 18 300 24
+           Q395 18 468 28
+           Q535 22 562 38
+           Q582 48 575 65
+           Q588 95 580 128
+           Q590 155 568 170
+           Q538 185 468 180
+           Q382 190 300 184
+           Q218 190 132 180
+           Q62 185 38 170
+           Q18 155 25 128
+           Q15 95 25 65
+           Q20 50 38 60 Z"
         fill="#E91E7D" stroke="none"/>
 
-  <!-- SHEIN'S en lettres noires -->
-  <text x="250" y="95"
-        text-anchor="middle"
-        font-family="'Arial Black', Impact, sans-serif"
-        font-size="72"
-        font-weight="900"
-        fill="#0a0a0a"
-        filter="url(#shadow)"
-        letter-spacing="-2">SHEIN'S</text>
+  <!-- SHEIN'S - Lettres style bubble/arrondi comme sur la photo -->
+  <g id="sheins-letters" filter="url(#shadow)">
 
-  <!-- SHOPPING CENTRE en jaune -->
-  <text x="250" y="145"
-        text-anchor="middle"
-        font-family="'Arial Black', Impact, sans-serif"
-        font-size="28"
-        font-weight="900"
-        font-style="italic"
-        stroke="#0a0a0a"
-        stroke-width="3"
-        fill="#FFD700"
-        letter-spacing="1">SHOPPING CENTRE</text>
+    <!-- S - première lettre arrondie -->
+    <path d="M62 62
+             Q85 52 102 62 Q118 72 115 88 Q112 100 95 108
+             L78 115 Q62 122 62 135 Q62 150 82 155 Q100 158 115 148
+             L120 158 Q100 172 75 168 Q48 164 48 140
+             Q48 118 72 108 L90 100 Q105 94 105 82 Q105 72 88 72
+             Q72 72 62 82 L52 72 Q62 58 62 62 Z"
+          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+
+    <!-- H -->
+    <path d="M130 60 L148 60 L148 95 L178 95 L178 60 L196 60
+             L196 160 L178 160 L178 115 L148 115 L148 160 L130 160 Z"
+          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+
+    <!-- E -->
+    <path d="M210 60 L270 60 L270 78 L228 78 L228 100 L265 100
+             L265 118 L228 118 L228 142 L272 142 L272 160 L210 160 Z"
+          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+
+    <!-- I -->
+    <path d="M285 60 L340 60 L340 78 L322 78 L322 142 L340 142
+             L340 160 L285 160 L285 142 L303 142 L303 78 L285 78 Z"
+          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+
+    <!-- N -->
+    <path d="M352 60 L372 60 L372 120 L408 60 L428 60
+             L428 160 L408 160 L408 100 L372 160 L352 160 Z"
+          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+
+    <!-- Apostrophe - goutte -->
+    <ellipse cx="448" cy="68" rx="10" ry="12" fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <path d="M454 75 Q460 92 450 100" stroke="#1a1a1a" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+    <!-- S final - plus grand et stylisé -->
+    <path d="M468 52
+             Q505 38 530 58 Q552 78 535 105
+             L505 125 Q478 140 478 162 Q478 185 510 192 Q540 198 565 178
+             L575 195 Q540 218 495 212 Q448 205 448 168
+             Q448 135 485 118 L515 100 Q540 88 535 70 Q530 55 502 60
+             Q478 65 465 85 L450 70 Q468 48 468 52 Z"
+          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+  </g>
+
+  <!-- SHOPPING CENTRE - Jaune avec contour noir, italique -->
+  <g id="shopping-centre">
+    <text x="300" y="188"
+          text-anchor="middle"
+          font-family="'Arial Black', 'Helvetica Neue', Impact, sans-serif"
+          font-size="26"
+          font-weight="900"
+          font-style="italic"
+          stroke="#1a1a1a"
+          stroke-width="4"
+          stroke-linejoin="round"
+          fill="none">SHOPPING CENTRE</text>
+    <text x="300" y="188"
+          text-anchor="middle"
+          font-family="'Arial Black', 'Helvetica Neue', Impact, sans-serif"
+          font-size="26"
+          font-weight="900"
+          font-style="italic"
+          fill="#FFD700">SHOPPING CENTRE</text>
+  </g>
 </svg>
