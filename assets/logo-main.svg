@@ -1,112 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 210" width="620" height="210">
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.2"/>
+      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.15"/>
     </filter>
   </defs>
 
-  <!-- Fond blob rose avec contour bleu - forme organique comme sur la photo -->
+  <!-- Fond blob rose avec contour bleu -->
   <path id="blue-outline"
-        d="M25 55
-           Q10 40 35 28
-           Q75 10 140 18
-           Q220 5 300 12
-           Q400 5 480 18
-           Q545 10 575 28
-           Q598 40 590 60
-           Q605 95 595 130
-           Q605 160 580 178
-           Q545 195 470 190
-           Q380 202 300 195
-           Q220 202 130 190
-           Q55 195 28 178
-           Q5 160 12 130
-           Q2 95 12 60
-           Q5 42 25 55 Z"
+        d="M20 50
+           C5 35, 25 20, 60 22
+           C120 10, 200 8, 310 12
+           C420 8, 520 10, 570 22
+           C610 20, 625 35, 615 55
+           C630 90, 628 130, 615 155
+           C625 175, 610 190, 570 188
+           C520 198, 420 200, 310 195
+           C200 200, 120 198, 60 188
+           C25 190, 5 175, 15 155
+           C2 130, 0 90, 15 55
+           C5 40, 10 45, 20 50 Z"
         fill="#2E64C8" stroke="none"/>
 
   <path id="pink-fill"
-        d="M38 60
-           Q25 48 48 38
-           Q85 22 145 28
-           Q220 18 300 24
-           Q395 18 468 28
-           Q535 22 562 38
-           Q582 48 575 65
-           Q588 95 580 128
-           Q590 155 568 170
-           Q538 185 468 180
-           Q382 190 300 184
-           Q218 190 132 180
-           Q62 185 38 170
-           Q18 155 25 128
-           Q15 95 25 65
-           Q20 50 38 60 Z"
+        d="M32 55
+           C20 45, 35 32, 65 34
+           C120 25, 200 22, 310 26
+           C420 22, 515 25, 560 34
+           C595 32, 608 45, 600 60
+           C612 90, 610 125, 600 148
+           C608 165, 595 178, 560 176
+           C515 184, 420 186, 310 182
+           C200 186, 120 184, 65 176
+           C35 178, 20 165, 28 148
+           C18 125, 16 90, 28 60
+           C20 48, 25 50, 32 55 Z"
         fill="#E91E7D" stroke="none"/>
 
-  <!-- SHEIN'S - Lettres style bubble/arrondi comme sur la photo -->
-  <g id="sheins-letters" filter="url(#shadow)">
+  <!-- SHEIN'S - Vrai style BUBBLE LETTERS graffiti -->
+  <g id="sheins-bubble" filter="url(#shadow)">
 
-    <!-- S - première lettre arrondie -->
-    <path d="M62 62
-             Q85 52 102 62 Q118 72 115 88 Q112 100 95 108
-             L78 115 Q62 122 62 135 Q62 150 82 155 Q100 158 115 148
-             L120 158 Q100 172 75 168 Q48 164 48 140
-             Q48 118 72 108 L90 100 Q105 94 105 82 Q105 72 88 72
-             Q72 72 62 82 L52 72 Q62 58 62 62 Z"
-          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <!-- S premier - Style bubble arrondi comme sur la photo -->
+    <path d="M58 48
+             C78 38, 100 42, 108 58
+             C116 74, 108 88, 88 96
+             C68 104, 58 112, 58 128
+             C58 148, 78 158, 98 152
+             C108 148, 115 142, 118 135
+             L108 128
+             C105 135, 98 142, 88 144
+             C72 148, 68 138, 68 128
+             C68 118, 78 110, 95 102
+             C112 94, 125 82, 122 62
+             C119 45, 100 38, 78 42
+             C62 46, 52 58, 50 70
+             L60 75
+             C62 65, 68 55, 78 52
+             C90 48, 98 52, 102 62
+             C106 72, 100 82, 85 88
+             C70 94, 48 108, 48 128
+             C48 155, 72 168, 102 160
+             C118 155, 128 142, 130 128
+             L118 122
+             C116 135, 108 148, 92 152
+             C70 160, 48 145, 48 125
+             C48 105, 65 95, 82 88
+             C100 80, 112 68, 108 55
+             C104 45, 88 42, 72 48
+             C60 52, 52 62, 50 75
+             Z"
+          fill="#1a1a1a"/>
 
-    <!-- H -->
-    <path d="M130 60 L148 60 L148 95 L178 95 L178 60 L196 60
-             L196 160 L178 160 L178 115 L148 115 L148 160 L130 160 Z"
-          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <!-- H - Style tube arrondi -->
+    <path d="M135 45
+             C135 45, 155 45, 155 55
+             L155 95
+             L185 95
+             L185 55
+             C185 45, 205 45, 205 55
+             L205 155
+             C205 165, 185 165, 185 155
+             L185 115
+             L155 115
+             L155 155
+             C155 165, 135 165, 135 155
+             L135 55
+             C135 50, 135 45, 135 45
+             Z"
+          fill="#1a1a1a" stroke="#1a1a1a" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- E -->
-    <path d="M210 60 L270 60 L270 78 L228 78 L228 100 L265 100
-             L265 118 L228 118 L228 142 L272 142 L272 160 L210 160 Z"
-          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <!-- E - Style tube arrondi -->
+    <path d="M225 45
+             L280 45
+             C290 45, 290 60, 280 60
+             L245 60
+             L245 92
+             L275 92
+             C285 92, 285 107, 275 107
+             L245 107
+             L245 150
+             L285 150
+             C295 150, 295 165, 285 165
+             L225 165
+             C215 165, 215 155, 225 155
+             L225 55
+             C225 48, 225 45, 225 45
+             Z"
+          fill="#1a1a1a" stroke="#1a1a1a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- I -->
-    <path d="M285 60 L340 60 L340 78 L322 78 L322 142 L340 142
-             L340 160 L285 160 L285 142 L303 142 L303 78 L285 78 Z"
-          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <!-- I - Style bubble avec point -->
+    <ellipse cx="318" cy="52" rx="12" ry="10" fill="#1a1a1a"/>
+    <path d="M305 72
+             L330 72
+             C340 72, 340 85, 330 85
+             L325 85
+             L325 150
+             L330 150
+             C340 150, 340 165, 330 165
+             L305 165
+             C295 165, 295 150, 305 150
+             L310 150
+             L310 85
+             L305 85
+             C295 85, 295 72, 305 72
+             Z"
+          fill="#1a1a1a" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- N -->
-    <path d="M352 60 L372 60 L372 120 L408 60 L428 60
-             L428 160 L408 160 L408 100 L372 160 L352 160 Z"
-          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <!-- N - Style tube arrondi -->
+    <path d="M355 45
+             C355 45, 375 45, 375 55
+             L375 115
+             L405 55
+             C410 45, 430 48, 425 58
+             L425 155
+             C425 165, 405 165, 405 155
+             L405 95
+             L375 155
+             C370 165, 350 162, 355 152
+             L355 55
+             C355 50, 355 45, 355 45
+             Z"
+          fill="#1a1a1a" stroke="#1a1a1a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
 
     <!-- Apostrophe - goutte -->
-    <ellipse cx="448" cy="68" rx="10" ry="12" fill="#1a1a1a" stroke="#000" stroke-width="1"/>
-    <path d="M454 75 Q460 92 450 100" stroke="#1a1a1a" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <ellipse cx="448" cy="55" rx="8" ry="10" fill="#1a1a1a"/>
+    <path d="M452 62 C458 75, 455 85, 445 90" stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
 
-    <!-- S final - plus grand et stylisé -->
-    <path d="M468 52
-             Q505 38 530 58 Q552 78 535 105
-             L505 125 Q478 140 478 162 Q478 185 510 192 Q540 198 565 178
-             L575 195 Q540 218 495 212 Q448 205 448 168
-             Q448 135 485 118 L515 100 Q540 88 535 70 Q530 55 502 60
-             Q478 65 465 85 L450 70 Q468 48 468 52 Z"
-          fill="#1a1a1a" stroke="#000" stroke-width="1"/>
+    <!-- S GRAND FINAL - Style bubble énorme -->
+    <path d="M470 35
+             C510 20, 555 30, 568 60
+             C580 90, 560 115, 525 130
+             C495 145, 480 160, 485 180
+             C490 200, 520 210, 555 195
+             C575 185, 588 168, 590 150
+             L575 145
+             C573 160, 565 175, 550 182
+             C525 195, 502 188, 498 172
+             C494 155, 510 140, 540 125
+             C575 108, 598 80, 588 50
+             C578 22, 540 12, 500 22
+             C470 30, 455 50, 455 75
+             L472 78
+             C472 58, 485 42, 508 35
+             C535 28, 560 35, 568 55
+             C576 75, 562 95, 535 108
+             C505 122, 478 145, 478 175
+             C478 210, 515 225, 560 210
+             C590 200, 608 175, 610 145
+             L592 140
+             C590 165, 578 185, 555 195
+             C520 212, 492 195, 495 172
+             C498 150, 520 135, 550 120
+             C585 102, 605 70, 590 40
+             C575 12, 530 5, 490 18
+             C455 30, 438 60, 442 90
+             Z"
+          fill="#1a1a1a"/>
   </g>
 
-  <!-- SHOPPING CENTRE - Jaune avec contour noir, italique -->
+  <!-- SHOPPING CENTRE - Jaune avec contour noir -->
   <g id="shopping-centre">
-    <text x="300" y="188"
+    <text x="310" y="198"
           text-anchor="middle"
           font-family="'Arial Black', 'Helvetica Neue', Impact, sans-serif"
-          font-size="26"
+          font-size="24"
           font-weight="900"
           font-style="italic"
           stroke="#1a1a1a"
-          stroke-width="4"
+          stroke-width="5"
           stroke-linejoin="round"
           fill="none">SHOPPING CENTRE</text>
-    <text x="300" y="188"
+    <text x="310" y="198"
           text-anchor="middle"
           font-family="'Arial Black', 'Helvetica Neue', Impact, sans-serif"
-          font-size="26"
+          font-size="24"
           font-weight="900"
           font-style="italic"
           fill="#FFD700">SHOPPING CENTRE</text>
