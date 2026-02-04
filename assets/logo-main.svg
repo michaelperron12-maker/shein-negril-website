@@ -1,135 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180" width="500" height="180">
   <defs>
-    <!-- Filtre ombre douce -->
-    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="4" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.3"/>
     </filter>
-
-    <!-- Style pour les lettres bubble -->
-    <style>
-      .bubble-text {
-        font-family: 'Arial Black', 'Arial', sans-serif;
-        font-weight: 900;
-      }
-    </style>
   </defs>
 
-  <!-- Fond blob/nuage rose avec contour bleu -->
-  <g id="pink-blob" filter="url(#softShadow)">
-    <!-- Contour bleu (plus large) -->
-    <path d="M45 70
-             Q25 55 55 40
-             Q90 20 140 30
-             Q180 15 230 25
-             Q300 10 380 20
-             Q450 10 520 30
-             Q580 20 620 45
-             Q660 70 655 110
-             Q670 150 660 190
-             Q670 230 640 255
-             Q600 280 540 275
-             Q480 290 400 280
-             Q320 295 240 280
-             Q160 290 100 270
-             Q50 255 35 220
-             Q15 180 25 140
-             Q10 100 45 70 Z"
-          fill="#2E5FBA" stroke="none"/>
+  <!-- Fond blob rose avec contour bleu -->
+  <path id="blue-outline"
+        d="M15 35
+           Q5 22 30 14
+           Q70 2 130 8
+           Q200 0 250 5
+           Q340 0 410 8
+           Q470 2 490 14
+           Q505 22 498 40
+           Q508 65 502 95
+           Q512 125 492 145
+           Q465 165 400 162
+           Q320 172 250 165
+           Q180 172 100 162
+           Q35 165 15 145
+           Q-5 125 5 95
+           Q-5 65 5 40
+           Q2 25 15 35 Z"
+        fill="#2563EB" stroke="none"/>
 
-    <!-- Fond rose -->
-    <path d="M55 78
-             Q38 65 65 52
-             Q95 35 145 42
-             Q185 28 235 36
-             Q300 24 378 32
-             Q445 24 512 42
-             Q568 34 605 55
-             Q640 75 636 112
-             Q650 148 642 185
-             Q652 220 625 242
-             Q592 262 535 258
-             Q478 272 400 264
-             Q322 276 245 264
-             Q168 274 110 258
-             Q62 245 50 215
-             Q32 180 40 145
-             Q28 108 55 78 Z"
-          fill="#E91E7D" stroke="none"/>
-  </g>
+  <path id="pink-fill"
+        d="M25 42
+           Q15 32 38 25
+           Q75 15 130 20
+           Q195 12 250 16
+           Q335 12 405 20
+           Q460 15 482 25
+           Q498 32 492 48
+           Q502 72 496 100
+           Q505 125 488 142
+           Q462 158 400 155
+           Q322 164 250 158
+           Q178 164 102 155
+           Q40 158 22 142
+           Q8 125 15 100
+           Q8 72 15 48
+           Q12 35 25 42 Z"
+        fill="#E91E7D" stroke="none"/>
 
-  <!-- Texte SHEIN'S - Style Bubble/Cartoon -->
-  <g id="sheins-bubble">
-    <!-- S -->
-    <g transform="translate(75, 85)">
-      <path d="M45 10 Q75 0 90 20 Q105 40 85 55 L55 70 Q30 80 30 100 Q30 120 55 125 Q80 130 100 115
-               L105 130 Q80 150 45 145 Q5 140 5 105 Q5 75 40 60 L70 45 Q90 35 85 25 Q80 15 55 20 Q35 25 25 40 L10 25 Q25 5 45 10 Z"
-            fill="#1a1a1a" stroke="#000" stroke-width="2"/>
-    </g>
+  <!-- SHEIN'S en lettres noires -->
+  <text x="250" y="95"
+        text-anchor="middle"
+        font-family="'Arial Black', Impact, sans-serif"
+        font-size="72"
+        font-weight="900"
+        fill="#0a0a0a"
+        filter="url(#shadow)"
+        letter-spacing="-2">SHEIN'S</text>
 
-    <!-- H -->
-    <g transform="translate(155, 85)">
-      <path d="M10 10 L30 10 L30 55 L70 55 L70 10 L90 10 L90 140 L70 140 L70 80 L30 80 L30 140 L10 140 Z"
-            fill="#1a1a1a" stroke="#000" stroke-width="2"/>
-    </g>
-
-    <!-- E -->
-    <g transform="translate(235, 85)">
-      <path d="M10 10 L80 10 L80 30 L30 30 L30 65 L75 65 L75 85 L30 85 L30 120 L85 120 L85 140 L10 140 Z"
-            fill="#1a1a1a" stroke="#000" stroke-width="2"/>
-    </g>
-
-    <!-- I -->
-    <g transform="translate(310, 85)">
-      <path d="M10 10 L50 10 L50 30 L40 30 L40 120 L50 120 L50 140 L10 140 L10 120 L20 120 L20 30 L10 30 Z"
-            fill="#1a1a1a" stroke="#000" stroke-width="2"/>
-    </g>
-
-    <!-- N -->
-    <g transform="translate(350, 85)">
-      <path d="M10 10 L30 10 L30 90 L70 10 L90 10 L90 140 L70 140 L70 55 L30 140 L10 140 Z"
-            fill="#1a1a1a" stroke="#000" stroke-width="2"/>
-    </g>
-
-    <!-- Apostrophe -->
-    <g transform="translate(435, 75)">
-      <ellipse cx="15" cy="20" rx="12" ry="15" fill="#1a1a1a" stroke="#000" stroke-width="2"/>
-      <path d="M20 30 Q25 50 15 60" stroke="#1a1a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
-    </g>
-
-    <!-- S final (plus grand et stylisé) -->
-    <g transform="translate(460, 70)">
-      <path d="M70 15 Q115 0 145 30 Q175 60 140 95 L95 125 Q55 145 55 180 Q55 215 95 225 Q135 235 170 210
-               L180 240 Q135 275 75 265 Q10 255 10 190 Q10 140 65 110 L110 80 Q145 60 135 40 Q125 20 85 30 Q50 40 35 70 L10 50 Q35 10 70 15 Z"
-            fill="#1a1a1a" stroke="#000" stroke-width="3"/>
-    </g>
-  </g>
-
-  <!-- Version alternative avec texte SVG pour meilleure compatibilité -->
-  <g id="sheins-text-fallback" style="display:none;">
-    <text x="350" y="175" text-anchor="middle"
-          font-family="'Arial Black', 'Impact', sans-serif"
-          font-size="120" font-weight="900"
-          fill="#1a1a1a" stroke="#000" stroke-width="3">
-      SHEIN'S
-    </text>
-  </g>
-
-  <!-- Texte SHOPPING CENTRE en jaune -->
-  <g id="shopping-centre">
-    <!-- Contour noir (ombre) -->
-    <text x="350" y="260" text-anchor="middle"
-          font-family="'Arial Black', 'Impact', sans-serif"
-          font-size="42" font-weight="900" font-style="italic"
-          fill="none" stroke="#1a1a1a" stroke-width="8" stroke-linejoin="round">
-      SHOPPING CENTRE
-    </text>
-    <!-- Texte jaune -->
-    <text x="350" y="260" text-anchor="middle"
-          font-family="'Arial Black', 'Impact', sans-serif"
-          font-size="42" font-weight="900" font-style="italic"
-          fill="#FFD700" stroke="#1a1a1a" stroke-width="2">
-      SHOPPING CENTRE
-    </text>
-  </g>
+  <!-- SHOPPING CENTRE en jaune -->
+  <text x="250" y="145"
+        text-anchor="middle"
+        font-family="'Arial Black', Impact, sans-serif"
+        font-size="28"
+        font-weight="900"
+        font-style="italic"
+        stroke="#0a0a0a"
+        stroke-width="3"
+        fill="#FFD700"
+        letter-spacing="1">SHOPPING CENTRE</text>
 </svg>

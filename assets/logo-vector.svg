@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180" width="500" height="180">
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="5" dy="5" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.3"/>
     </filter>
   </defs>
 
-  <!-- Fond blob rose avec contour bleu -->
-  <path id="pink-blob"
-        d="M30 60
-           Q15 40 50 25
-           Q100 5 180 15
-           Q280 0 400 10
-           Q520 0 620 15
-           Q700 5 750 25
-           Q785 40 775 70
-           Q790 120 780 170
-           Q795 220 770 260
-           Q740 295 650 290
-           Q550 305 400 295
-           Q250 305 150 290
-           Q60 295 30 260
-           Q5 220 20 170
-           Q5 120 20 70
-           Q10 50 30 60 Z"
+  <!-- Fond blob rose avec contour bleu - compact -->
+  <path id="blue-outline"
+        d="M15 35
+           Q5 22 30 14
+           Q70 2 130 8
+           Q200 0 250 5
+           Q340 0 410 8
+           Q470 2 490 14
+           Q505 22 498 40
+           Q508 65 502 95
+           Q512 125 492 145
+           Q465 165 400 162
+           Q320 172 250 165
+           Q180 172 100 162
+           Q35 165 15 145
+           Q-5 125 5 95
+           Q-5 65 5 40
+           Q2 25 15 35 Z"
         fill="#2563EB" stroke="none"/>
 
   <path id="pink-fill"
-        d="M45 70
-           Q30 55 60 42
-           Q105 25 180 32
-           Q275 20 400 28
-           Q525 20 620 32
-           Q695 25 740 42
-           Q770 55 762 80
-           Q775 125 767 170
-           Q780 210 758 245
-           Q730 275 645 272
-           Q545 285 400 277
-           Q255 285 155 272
-           Q70 275 42 245
-           Q20 210 33 170
-           Q20 125 33 80
-           Q25 60 45 70 Z"
+        d="M25 42
+           Q15 32 38 25
+           Q75 15 130 20
+           Q195 12 250 16
+           Q335 12 405 20
+           Q460 15 482 25
+           Q498 32 492 48
+           Q502 72 496 100
+           Q505 125 488 142
+           Q462 158 400 155
+           Q322 164 250 158
+           Q178 164 102 155
+           Q40 158 22 142
+           Q8 125 15 100
+           Q8 72 15 48
+           Q12 35 25 42 Z"
         fill="#E91E7D" stroke="none"/>
 
-  <!-- SHEIN'S en lettres bubble noires -->
-  <text x="400" y="185"
+  <!-- SHEIN'S en lettres noires - bien centré -->
+  <text x="250" y="95"
         text-anchor="middle"
-        font-family="'Arial Black', 'Helvetica Black', sans-serif"
-        font-size="145"
+        font-family="'Arial Black', Impact, sans-serif"
+        font-size="72"
         font-weight="900"
         fill="#0a0a0a"
         filter="url(#shadow)"
-        letter-spacing="-5">SHEIN'S</text>
+        letter-spacing="-2">SHEIN'S</text>
 
-  <!-- SHOPPING CENTRE en jaune -->
-  <text x="400" y="290"
+  <!-- SHOPPING CENTRE en jaune - bien intégré -->
+  <text x="250" y="145"
         text-anchor="middle"
-        font-family="'Arial Black', 'Helvetica Black', sans-serif"
-        font-size="58"
+        font-family="'Arial Black', Impact, sans-serif"
+        font-size="28"
         font-weight="900"
         font-style="italic"
         stroke="#0a0a0a"
-        stroke-width="6"
+        stroke-width="3"
         fill="#FFD700"
-        letter-spacing="2">SHOPPING CENTRE</text>
+        letter-spacing="1">SHOPPING CENTRE</text>
 </svg>
